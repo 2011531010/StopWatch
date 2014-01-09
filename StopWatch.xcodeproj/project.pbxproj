@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8C49E9187E63E8004EE201 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8C49E8187E63E8004EE201 /* UIKit.framework */; };
+		6B8C49EB187E63E8004EE201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8C49EA187E63E8004EE201 /* Foundation.framework */; };
+		6B8C49ED187E63E8004EE201 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8C49EC187E63E8004EE201 /* CoreGraphics.framework */; };
+		6B8C49F3187E63E8004EE201 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C49F1187E63E8004EE201 /* InfoPlist.strings */; };
+		6B8C49F5187E63E8004EE201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C49F4187E63E8004EE201 /* main.m */; };
+		6B8C49F9187E63E8004EE201 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C49F8187E63E8004EE201 /* AppDelegate.m */; };
+		6B8C49FB187E63E8004EE201 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C49FA187E63E8004EE201 /* Default.png */; };
+		6B8C49FD187E63E8004EE201 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C49FC187E63E8004EE201 /* Default@2x.png */; };
+		6B8C49FF187E63E8004EE201 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C49FE187E63E8004EE201 /* Default-568h@2x.png */; };
+		6B8C4A02187E63E8004EE201 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C4A00187E63E8004EE201 /* MainStoryboard.storyboard */; };
+		6B8C4A05187E63E8004EE201 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C4A04187E63E8004EE201 /* ViewController.m */; };
+		6B8C4A0D187E63E8004EE201 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8C4A0C187E63E8004EE201 /* SenTestingKit.framework */; };
+		6B8C4A0E187E63E8004EE201 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8C49E8187E63E8004EE201 /* UIKit.framework */; };
+		6B8C4A0F187E63E8004EE201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8C49EA187E63E8004EE201 /* Foundation.framework */; };
+		6B8C4A17187E63E8004EE201 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C4A15187E63E8004EE201 /* InfoPlist.strings */; };
+		6B8C4A1A187E63E8004EE201 /* StopWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C4A19187E63E8004EE201 /* StopWatchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B8C4A10187E63E8004EE201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8C49DD187E63E7004EE201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8C49E4187E63E7004EE201;
+			remoteInfo = StopWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B8C49E5187E63E8004EE201 /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8C49E8187E63E8004EE201 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B8C49EA187E63E8004EE201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B8C49EC187E63E8004EE201 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B8C49F0187E63E8004EE201 /* StopWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StopWatch-Info.plist"; sourceTree = "<group>"; };
+		6B8C49F2187E63E8004EE201 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B8C49F4187E63E8004EE201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B8C49F6187E63E8004EE201 /* StopWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StopWatch-Prefix.pch"; sourceTree = "<group>"; };
+		6B8C49F7187E63E8004EE201 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B8C49F8187E63E8004EE201 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B8C49FA187E63E8004EE201 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6B8C49FC187E63E8004EE201 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6B8C49FE187E63E8004EE201 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B8C4A01187E63E8004EE201 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6B8C4A03187E63E8004EE201 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B8C4A04187E63E8004EE201 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B8C4A0B187E63E8004EE201 /* StopWatchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8C4A0C187E63E8004EE201 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6B8C4A14187E63E8004EE201 /* StopWatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StopWatchTests-Info.plist"; sourceTree = "<group>"; };
+		6B8C4A16187E63E8004EE201 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B8C4A18187E63E8004EE201 /* StopWatchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopWatchTests.h; sourceTree = "<group>"; };
+		6B8C4A19187E63E8004EE201 /* StopWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopWatchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8C49E2187E63E7004EE201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C49E9187E63E8004EE201 /* UIKit.framework in Frameworks */,
+				6B8C49EB187E63E8004EE201 /* Foundation.framework in Frameworks */,
+				6B8C49ED187E63E8004EE201 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8C4A07187E63E8004EE201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C4A0D187E63E8004EE201 /* SenTestingKit.framework in Frameworks */,
+				6B8C4A0E187E63E8004EE201 /* UIKit.framework in Frameworks */,
+				6B8C4A0F187E63E8004EE201 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8C49DC187E63E7004EE201 = {
+			isa = PBXGroup;
+			children = (
+				6B8C49EE187E63E8004EE201 /* StopWatch */,
+				6B8C4A12187E63E8004EE201 /* StopWatchTests */,
+				6B8C49E7187E63E8004EE201 /* Frameworks */,
+				6B8C49E6187E63E8004EE201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8C49E6187E63E8004EE201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8C49E5187E63E8004EE201 /* StopWatch.app */,
+				6B8C4A0B187E63E8004EE201 /* StopWatchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8C49E7187E63E8004EE201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B8C49E8187E63E8004EE201 /* UIKit.framework */,
+				6B8C49EA187E63E8004EE201 /* Foundation.framework */,
+				6B8C49EC187E63E8004EE201 /* CoreGraphics.framework */,
+				6B8C4A0C187E63E8004EE201 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B8C49EE187E63E8004EE201 /* StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				6B8C49F7187E63E8004EE201 /* AppDelegate.h */,
+				6B8C49F8187E63E8004EE201 /* AppDelegate.m */,
+				6B8C4A00187E63E8004EE201 /* MainStoryboard.storyboard */,
+				6B8C4A03187E63E8004EE201 /* ViewController.h */,
+				6B8C4A04187E63E8004EE201 /* ViewController.m */,
+				6B8C49EF187E63E8004EE201 /* Supporting Files */,
+			);
+			path = StopWatch;
+			sourceTree = "<group>";
+		};
+		6B8C49EF187E63E8004EE201 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8C49F0187E63E8004EE201 /* StopWatch-Info.plist */,
+				6B8C49F1187E63E8004EE201 /* InfoPlist.strings */,
+				6B8C49F4187E63E8004EE201 /* main.m */,
+				6B8C49F6187E63E8004EE201 /* StopWatch-Prefix.pch */,
+				6B8C49FA187E63E8004EE201 /* Default.png */,
+				6B8C49FC187E63E8004EE201 /* Default@2x.png */,
+				6B8C49FE187E63E8004EE201 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B8C4A12187E63E8004EE201 /* StopWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8C4A18187E63E8004EE201 /* StopWatchTests.h */,
+				6B8C4A19187E63E8004EE201 /* StopWatchTests.m */,
+				6B8C4A13187E63E8004EE201 /* Supporting Files */,
+			);
+			path = StopWatchTests;
+			sourceTree = "<group>";
+		};
+		6B8C4A13187E63E8004EE201 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8C4A14187E63E8004EE201 /* StopWatchTests-Info.plist */,
+				6B8C4A15187E63E8004EE201 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8C49E4187E63E7004EE201 /* StopWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8C4A1D187E63E8004EE201 /* Build configuration list for PBXNativeTarget "StopWatch" */;
+			buildPhases = (
+				6B8C49E1187E63E7004EE201 /* Sources */,
+				6B8C49E2187E63E7004EE201 /* Frameworks */,
+				6B8C49E3187E63E7004EE201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StopWatch;
+			productName = StopWatch;
+			productReference = 6B8C49E5187E63E8004EE201 /* StopWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B8C4A0A187E63E8004EE201 /* StopWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8C4A20187E63E8004EE201 /* Build configuration list for PBXNativeTarget "StopWatchTests" */;
+			buildPhases = (
+				6B8C4A06187E63E8004EE201 /* Sources */,
+				6B8C4A07187E63E8004EE201 /* Frameworks */,
+				6B8C4A08187E63E8004EE201 /* Resources */,
+				6B8C4A09187E63E8004EE201 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8C4A11187E63E8004EE201 /* PBXTargetDependency */,
+			);
+			name = StopWatchTests;
+			productName = StopWatchTests;
+			productReference = 6B8C4A0B187E63E8004EE201 /* StopWatchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8C49DD187E63E7004EE201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = univercityofkitakyu;
+			};
+			buildConfigurationList = 6B8C49E0187E63E7004EE201 /* Build configuration list for PBXProject "StopWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B8C49DC187E63E7004EE201;
+			productRefGroup = 6B8C49E6187E63E8004EE201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8C49E4187E63E7004EE201 /* StopWatch */,
+				6B8C4A0A187E63E8004EE201 /* StopWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8C49E3187E63E7004EE201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C49F3187E63E8004EE201 /* InfoPlist.strings in Resources */,
+				6B8C49FB187E63E8004EE201 /* Default.png in Resources */,
+				6B8C49FD187E63E8004EE201 /* Default@2x.png in Resources */,
+				6B8C49FF187E63E8004EE201 /* Default-568h@2x.png in Resources */,
+				6B8C4A02187E63E8004EE201 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8C4A08187E63E8004EE201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C4A17187E63E8004EE201 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B8C4A09187E63E8004EE201 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8C49E1187E63E7004EE201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C49F5187E63E8004EE201 /* main.m in Sources */,
+				6B8C49F9187E63E8004EE201 /* AppDelegate.m in Sources */,
+				6B8C4A05187E63E8004EE201 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8C4A06187E63E8004EE201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C4A1A187E63E8004EE201 /* StopWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B8C4A11187E63E8004EE201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B8C49E4187E63E7004EE201 /* StopWatch */;
+			targetProxy = 6B8C4A10187E63E8004EE201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B8C49F1187E63E8004EE201 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8C49F2187E63E8004EE201 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B8C4A00187E63E8004EE201 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8C4A01187E63E8004EE201 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6B8C4A15187E63E8004EE201 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8C4A16187E63E8004EE201 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8C4A1B187E63E8004EE201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B8C4A1C187E63E8004EE201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8C4A1E187E63E8004EE201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StopWatch/StopWatch-Prefix.pch";
+				INFOPLIST_FILE = "StopWatch/StopWatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B8C4A1F187E63E8004EE201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StopWatch/StopWatch-Prefix.pch";
+				INFOPLIST_FILE = "StopWatch/StopWatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6B8C4A21187E63E8004EE201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StopWatch.app/StopWatch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StopWatch/StopWatch-Prefix.pch";
+				INFOPLIST_FILE = "StopWatchTests/StopWatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6B8C4A22187E63E8004EE201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StopWatch.app/StopWatch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StopWatch/StopWatch-Prefix.pch";
+				INFOPLIST_FILE = "StopWatchTests/StopWatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8C49E0187E63E7004EE201 /* Build configuration list for PBXProject "StopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8C4A1B187E63E8004EE201 /* Debug */,
+				6B8C4A1C187E63E8004EE201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8C4A1D187E63E8004EE201 /* Build configuration list for PBXNativeTarget "StopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8C4A1E187E63E8004EE201 /* Debug */,
+				6B8C4A1F187E63E8004EE201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B8C4A20187E63E8004EE201 /* Build configuration list for PBXNativeTarget "StopWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8C4A21187E63E8004EE201 /* Debug */,
+				6B8C4A22187E63E8004EE201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8C49DD187E63E7004EE201 /* Project object */;
+}
