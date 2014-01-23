@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+        NSTimer *timeCount;
+}
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+- (IBAction)pushedStartButton:(id)sender;
+- (IBAction)pushedStopButton:(id)sender;
+- (IBAction)pushedResetButton:(id)sender;
+
+-(void)showActivity;
 
 @end
